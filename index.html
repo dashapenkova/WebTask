@@ -17,7 +17,7 @@
 </head>
 <body>
 	<!--- Navigation --->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-custom navbar-expand-md sticky-top ">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand"><img src="img/logo.png"></a>
 
@@ -45,7 +45,35 @@
 		</div>
 	</nav>
 	<!--- End Navigation --->
-	
+
+    <!-- Slider --->
+	<div class="carousel slide" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+			
+		</ul>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/5.jpg" style="transform: translateY(-13%)">
+				<div class="carousel-caption">
+					<h1 class="display-2">Sky Photographer</h1>
+					<h3 style="text-shadow: none;">Click watch button if you are the same sky lover as me</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">Watch</button>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/1.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="img/3.jpg" style="transform: translateY(-20%);">
+			</div>
+		</div>
+	</div>
+	<!-- End Slider --->
 
 </body>
 </html>
