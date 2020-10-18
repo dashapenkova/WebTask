@@ -90,7 +90,7 @@ body, html {
 /*-----------END SLIDER--------------*/
 
 /*-------------ABOUT ME----------------*/
-#general-info{
+#aboutMe{
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-color: #EEE8DB;
@@ -100,7 +100,7 @@ body, html {
 	padding-top: 30px;
 }
 
-#general-info .btn:hover {
+#aboutMe .btn:hover {
 	background-color: #8c5c4f;
 }
 
