@@ -7,6 +7,8 @@ body, html {
 	height: 100%;
 	font-family: 'Poppins' , sans-serif;
 	color: #8c5c4f;
+	background-color: #EEE8DB;
+
 
 }
 
@@ -91,9 +93,9 @@ body, html {
 
 /*-------------ABOUT ME----------------*/
 #aboutMe{
-	padding-top: 70px;
-	padding-bottom: 70px;
-	background-color: #EEE8DB;
+	padding-top: 60px;
+	/*background-color: #EEE8DB;*/
+
 }
 
 #read-more-btn {
@@ -105,4 +107,24 @@ body, html {
 }
 
 
+
+#fixed{
+	height: 400px;
+	border-top: 30px solid #EEE8DB;
+	/*border-bottom: 4px solid #EEE8DB;*/
+	background: url("../img/haha.jpg") no-repeat center  center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+}
 /*------------END ABOUT ME----------------*/
+
+
+/*-------------PORTFOLIO----------------*/
+#portfolio{
+	padding-top: 60px;
+	/*padding-bottom: 70px;*/
+
+}
+
+
+/*------------END PORTFOLIO----------------*/
