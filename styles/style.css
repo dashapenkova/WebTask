@@ -94,8 +94,6 @@ body, html {
 /*-------------ABOUT ME----------------*/
 #aboutMe{
 	padding-top: 60px;
-	/*background-color: #EEE8DB;*/
-
 }
 
 #read-more-btn {
@@ -112,17 +110,26 @@ body, html {
 	background: url("../img/haha.jpg") no-repeat center  center fixed;
 	background-size: cover;
 	-moz-background-size: cover;
-	- -background-size: cover;
+	-webkit-background-size: cover;
 }
 /*------------END ABOUT ME----------------*/
-
-
 
 
 /*-------------PORTFOLIO----------------*/
 #portfolio{
 	padding-top: 60px;
 	padding-bottom: 30px;
+}
+
+.face-front{
+	transition: 0.5s;
+}
+.face-front:hover{
+	transform: scale(1.25);
+}
+
+.face-front img{
+	width: 90%;
 }
 /*------------END PORTFOLIO----------------*/
 
